@@ -2,24 +2,11 @@
     --white: #fff;
     --black: #000;
 
-    --black-111: #111;
     --Indian-Red: #d62e33;
-    --light-gray: #ccc;
     --dark-gray: #212529;
     --gray-444: #444;
     --gray-777: #777;
     --gray-999: #999;
-
-    --color-main: rgba(17, 17, 17, 1);
-    --color-sub: rgba(204, 204, 204, 1);
-    --color-accent: rgba(214, 46, 51, 0.6);
-
-    --text-main: rgba(255, 255, 255, 1);
-    --text-sub-dark: rgba(33, 37, 41, 1);
-    --text-sub-777: rgba(119, 119, 119, 1);
-    --text-sub-999: rgba(153, 153, 153, 1);
-    --text-accent: rgba(214, 46, 51, 1);
-    --text-title: rgba(68, 68, 68, 1);
 
     --font-general: "Roboto", sans-serif;
     --line-height-head: 1.2;
@@ -32,25 +19,6 @@ body {
     font-family: var(--font-general);
     color: var(--text-sub-dark);
 }
-
-/* Colors */
-.bg-main { background-color: rgba(17, 17, 17, 1); }
-.bg-sub { background-color: rgba(204, 204, 204, 1); }
-.bg-accent { background-color: rgba(214, 46, 51, 0.6); }
-
-.text-main { color: rgba(255, 255, 255, 1); }
-.text-sub-dark { color: rgba(33, 37, 41, 1); }
-.text-sub-777 { color: rgba(119, 119, 119, 1); }
-.text-sub-999 { color: rgba(153, 153, 153, 1); }
-.text-accent { color: rgba(214, 46, 51, 1); }
-.text-title { color: rgba(68, 68, 68, 1); }
-
-/* Font Sizes */
-.fs-18px { font-size: 1.125rem; }
-.fs-25px { font-size: 1.563rem; }
-.fs-28px { font-size: 1.75rem; }
-.fs-30px { font-size: 1.875rem; }
-.fs-60px { font-size: 3.75rem; }
 
 /* Margins and Padding */
 .me-20px { margin-right: 1.25rem; }
@@ -65,7 +33,6 @@ body {
 .p-100px { padding: 6.25rem; }
 .py-100px { padding: 6.25rem 0; }
 
-/* Others */
 .fw-black { font-weight: 900; }
 .w-fit { width: fit-content; }
 
